@@ -71,5 +71,5 @@ Be free to run this command for all scripts (.py files) in this repository.
 
 This project is under license. See the [LICENSE](LICENSE.md) file for more details.
 
-[⬆ Back to the top](#mlops-course-U1T3)
+[⬆ Back to the top](#energy-consumption)
 
