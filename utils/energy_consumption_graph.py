@@ -50,7 +50,7 @@ def create_consumption_graph(data: pd.DataFrame):
     ax_subplot.text(2014, 101500, '100K', fontsize=10, color='grey', alpha=0.6)
 
     # Title and subtitle
-    ax_subplot.text(1918,235000,"Energy Consumption is Increased by Technology Development",
+    ax_subplot.text(1918,235000,"Energy Consumption is Increased by Technological Development",
             size=17, weight='bold')
     ax_subplot.text(1918,222000,"World energy consumption for the past 100 years in TWh")
 
@@ -86,5 +86,5 @@ def create_consumption_graph(data: pd.DataFrame):
     ax_subplot.scatter([2009], 145881, color=points_color)
     ax_subplot.text(2009, 133000, 'Bitcoin', size=12, color=points_color, weight='bold')
 
-    plt.savefig('energy_consumption.png')
+    plt.savefig('pictures/energy_consumption.png')
     plt.show()

@@ -21,7 +21,7 @@ def get_relation(test: Union[np.array, float, int],
     return abs(test - true) / true
 
 
-def create_renewable_graph(data: pd.Dataframe):
+def create_renewable_graph(data: pd.DataFrame):
     """Create Renewable Energy Graph
     Args:
             data (pd.DataFrame): energy consumption dataframe
@@ -151,5 +151,5 @@ def create_renewable_graph(data: pd.Dataframe):
     axs[-1].text(1992.5, -10000, '1995', fontsize=10, color='grey', alpha=0.6)
     axs[-1].text(2016.5, -10000, '2019', fontsize=10, color='grey', alpha=0.6)
 
-    plt.savefig('renewable_energy_graph.png')
+    plt.savefig('pictures/renewable_energy_graph.png')
     plt.show()
